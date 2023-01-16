@@ -1,0 +1,45 @@
+
+.dash__container {
+    
+    border: 0;
+    padding: 4rem ;
+    background: var(--color-lt-green) ;
+}
+
+.dash__heading {
+    text-align: center;
+    font-size: 20px ;
+    color: var(--color-bg-green) ;
+}
+
+.dash__table-form {
+    padding-top: 4rem ;
+    display: flex ;
+    align-items: top ;
+    justify-content: space-evenly ;
+    
+}
+
+.dash__table Table {
+    margin: 0 auto ;
+    padding-top: 5rem ;
+}
+
+.dash__table h2 {
+    text-align: center ;
+    color: var(--color-bg-green) ;
+    font-size: 20px ;
+}
+
+.link-text {
+    text-decoration: none ;
+    color: black ;
+    background: transparent ;
+}
+
+.dash__table-head  {
+    background: var(--color-dk-green) ;
+    border-color: var(--color-bg-green) ;
+    
+}
+

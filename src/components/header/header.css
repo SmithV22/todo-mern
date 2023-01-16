@@ -1,0 +1,27 @@
+
+.header__container {
+    background-color: var(--color-bg-green) ;
+    padding: 1rem ;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-evenly ;
+}
+
+.header__background {
+    width: 15rem ;
+    height: 15rem ;
+    margin-top: 1rem;
+    border-radius: .3rem ;
+    border: 2px solid black ;
+}
+
+.header__greeting {
+    color: var(--color-lt-green) ;
+    text-align: center;
+}
+
+.header__line {
+    height: .5rem ;
+    width: 100% ;
+    background: black ;
+}

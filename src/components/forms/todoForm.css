@@ -1,0 +1,24 @@
+
+.todoForm {
+    border: 5px solid var(--color-bg-green) ;
+    width: 300px ;
+    padding: 1rem ;
+    border-radius: 5px ;
+}
+
+.form__btn {
+    background: var(--color-bg-green) ;
+    border: 1px solid var(--color-bg-green) ;
+    color: var(--color-lt-green) ;
+    padding: 5px ;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-weight: bold ;
+    width: 100%;
+}
+
+.form__btn:hover {
+    background-color: black ;
+    padding: 5px 6px ;
+    border: 1px solid var(--color-bg-green) ;
+}
