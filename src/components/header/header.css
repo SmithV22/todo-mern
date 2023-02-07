@@ -25,3 +25,19 @@
     width: 100% ;
     background: black ;
 }
+
+.link {
+    padding-top: 2rem;
+}
+
+.link a {
+    text-decoration: none;
+    padding-top: 2rem;
+    cursor: pointer;
+    color: var(--color-lt-green) ;
+}
+
+.link a:hover {
+    color: silver;
+    font-weight: bold;
+} 

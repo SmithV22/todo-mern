@@ -10,7 +10,7 @@ const NewTodo = () => {
     const navigate = useNavigate() ;
     
     const submitHandler = (todo, setErrors) => {
-        axios.post('http://localhost:5000/api/todo', todo)
+        axios.post('https://neiatodo.onrender.com/api/todo', todo)
         .then((res) => {
             console.log(res.data)
             navigate('/') ;

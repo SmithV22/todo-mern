@@ -8,9 +8,6 @@ import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar' ;
 import Dashboard from './components/dashboard/Dashboard' ;
 import Todo from './components/todo/TodoItem' ;
-import Calender from './components/calender/Calender' ;
-
-
 
 function App() {
   return (
@@ -23,7 +20,6 @@ function App() {
             <Routes>
               <Route path='/' element={<Dashboard />} />
               <Route path='/:id' element={<Todo />} />
-              <Route path='/calender' element={<Calender />} />
             </Routes>
           </div>
         </Router>

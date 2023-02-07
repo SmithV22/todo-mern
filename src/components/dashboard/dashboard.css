@@ -25,10 +25,10 @@
     padding-top: 5rem ;
 }
 
-.dash__table h2 {
+.dash__table h3 {
     text-align: center ;
     color: var(--color-bg-green) ;
-    font-size: 20px ;
+    
 }
 
 .link-text {
@@ -38,8 +38,8 @@
 }
 
 .dash__table-head  {
-    background: var(--color-dk-green) ;
-    border-color: var(--color-bg-green) ;
+    background: rgb(175, 174, 174);
+    
     
 }
 

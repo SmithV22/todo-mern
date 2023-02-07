@@ -4,6 +4,7 @@
     width: 300px ;
     padding: 1rem ;
     border-radius: 5px ;
+    color: var(--color-bg-green);
 }
 
 .form__btn {

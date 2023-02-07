@@ -13,7 +13,7 @@ const UpdateTodo = () => {
 
     useEffect(() => {
         if (!state) {
-            axios.get(`http://localhost:5000/api/todo/${id}`)
+            axios.get(`https://neiatodo.onrender.com/api/todo/${id}`)
             .then((res) => {
                 console.log(res.data) ;
                 setOldTodo(res.data) ;
@@ -27,7 +27,7 @@ const UpdateTodo = () => {
     }, [id, oldTodo, state]) ;
 
     const submitHandler = (todo, setErrors) => {
-        axios.put(`http://localhost:5000/api/todo/${id}`, todo)
+        axios.put(`https://neiatodo.onrender.com/api/todo/${id}`, todo)
         .then((res) => {
             console.log(res.data) ;
             

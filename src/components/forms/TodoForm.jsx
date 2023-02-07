@@ -1,8 +1,6 @@
 
 import { useEffect, useState } from 'react' ;
-import { Link } from 'react-router-dom' ;
 import Form from 'react-bootstrap/Form' ;
-import Button from 'react-bootstrap/Button' ;
 
 import './todoForm.css' ;
 
@@ -55,11 +53,6 @@ const TodoForm = (props) => {
                             { errors.description && <p className="error">{ errors.description.message }</p> }
                             <Form.Label>Description (Optional)</Form.Label>
                             <Form.Control type="text" name="description" value={todo.description} onChange={changeHandler} />
-                        </Form.Group>
-                        <Form.Group className="mb-3">
-                            { errors.dueBy && <p className="error">{ errors.dueBy.message }</p> }
-                            <Form.Label>Due By: (Optional)</Form.Label>
-                            <Form.Control type="Date" name="dueBy" value={ todo.dueBy} onChange={changeHandler} />
                         </Form.Group>
                         <button className='form__btn' type="submit">  
                             {props.buttonText}
